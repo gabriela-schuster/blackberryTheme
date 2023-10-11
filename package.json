@@ -1,0 +1,35 @@
+{
+	"name": "blackberry",
+	"displayName": "blackberry",
+	"publisher": "indigo",
+	"description": "a dark refreshing theme",
+	"icon": "blackberryLogo.png",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git"
+	},
+	"keywords": [
+		"theme",
+		"blue",
+		"red",
+		"crimson",
+		"berry",
+		"goth",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "blackberry",
+				"uiTheme": "vs-dark",
+				"path": "./themes/blackberry-color-theme.json"
+			}
+		]
+	}
+}
